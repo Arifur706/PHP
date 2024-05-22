@@ -1,0 +1,19 @@
+{
+    "name": "example/package",
+    "description": "example",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Example\\Package\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rejuan",
+            "email": "arifrezuan706@gmail.com"
+        }
+    ],
+    "require": {
+        "bumbummen99/shoppingcart": "^4.2"
+    }
+}
